@@ -1,0 +1,58 @@
+
+$background: #f0f0f0;
+$titleFont: 'Playfair Display', serif;
+
+body {
+  background: $background;
+  height: 100vh;
+}
+
+a {
+  color: #000;
+  &:hover {
+    color: #000;
+    text-decoration: none;
+  }
+}
+
+h1, h2, h3, h4, h5 {
+  a {
+    color: #000;
+    &:hover {
+      color: #000;
+      text-decoration: none;
+    }
+  }
+  font-family: $titleFont;
+}
+
+#header {
+  .menuTop {
+    li {
+      margin: 0 1rem;
+    }
+  }
+}
+
+.posts-container {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  .post-item {
+    width: 350px;
+  }
+}
+
+.card {
+  box-shadow: 1px 1px 5px 1px rgba(153,153,153,0.27);
+  &:hover {
+    cursor: pointer;
+  }
+  img {
+    height: auto;
+  }
+}
+
+.topic a {
+  color: #fff;
+}
