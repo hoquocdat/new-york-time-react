@@ -5,7 +5,7 @@ const siteConfig = {
 };
 
 const apiConfig = {
-  url: `https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=${process.env.API_KEY}`
+  url: `https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=${process.env.REACT_APP_API_KEY}`
 };
 
 const masonryOptions = {
