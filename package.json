@@ -1,7 +1,7 @@
 {
   "name": "news",
   "version": "0.1.0",
-  "private": false,
+  "repository": "git@github.com:hoquocdat/new-york-time-react.git",
   "homepage": "https://hoquocdat.github.io/new-york-time-react/",
   "dependencies": {
     "babel-eslint": "^7.2.3",
